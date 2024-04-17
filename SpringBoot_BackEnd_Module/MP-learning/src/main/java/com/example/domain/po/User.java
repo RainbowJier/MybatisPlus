@@ -19,10 +19,10 @@ import java.util.Date;
 @NoArgsConstructor
 @TableName("user")
 public class User implements Serializable {
-    /**
-     * 用户id
-     */
     private Long id;
+    private Date createTime;
+    
+    private Date updateTime;
     /**
      * 用户名
      */
@@ -47,13 +47,9 @@ public class User implements Serializable {
      * 账户余额
      */
     private Integer balance;
-    /**
-     * 创建时间
-     */
+
     private Date createTime;
-    /**
-     * 更新时间
-     */
+
     private Date updateTime;
 }
 

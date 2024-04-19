@@ -20,9 +20,6 @@ import java.util.Date;
 @TableName("user")
 public class User implements Serializable {
     private Long id;
-    private Date createTime;
-    
-    private Date updateTime;
     /**
      * 用户名
      */
@@ -51,5 +48,6 @@ public class User implements Serializable {
     private Date createTime;
 
     private Date updateTime;
+
 }
 

@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c976e72e-00bd-449d-9572-3d57f9ca505f" name="Changes" comment="update">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+    <list default="true" id="c976e72e-00bd-449d-9572-3d57f9ca505f" name="Changes" comment="优化逻辑删除文档结构，增强阅读清晰度。">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_QuickStart/2.QuickStart.md" beforeDir="false" afterPath="$PROJECT_DIR$/1_QuickStart/2.QuickStart.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_QuickStart/3.Annotation.md" beforeDir="false" afterPath="$PROJECT_DIR$/1_QuickStart/3.Annotation.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot_BackEnd_Module/MP-learning/src/main/java/com/example/domain/po/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot_BackEnd_Module/MP-learning/src/main/java/com/example/domain/po/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot_BackEnd_Module/MP-learning/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot_BackEnd_Module/MP-learning/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot_BackEnd_Module/MP-learning/src/test/java/com/example/MPLearningApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot_BackEnd_Module/MP-learning/src/test/java/com/example/MPLearningApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,46 +55,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "JUnit.AddressTest.testDelete.executor": "Run",
-    "JUnit.All in SpringBoot_BackEnd_Module.executor": "Run",
-    "JUnit.MPLearningApplicationTests.testInsert.executor": "Run",
-    "JUnit.MPLearningApplicationTests.testSelectById.executor": "Run",
-    "Maven.SpringBoot_BackEnd_Module [clean].executor": "Run",
-    "Maven.SpringBoot_BackEnd_Module [install...].executor": "Debug",
-    "Maven.SpringBoot_BackEnd_Module [install].executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/GithubProjects/MybatisPlus/SpringBoot_BackEnd_Module/MP-learning/src/main/java/com/example/mapper",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15429688",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.AddressTest.testDelete.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in SpringBoot_BackEnd_Module.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MPLearningApplicationTests.testInsert.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MPLearningApplicationTests.testSelectById.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.SpringBoot_BackEnd_Module [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.SpringBoot_BackEnd_Module [install...].executor&quot;: &quot;Debug&quot;,
+    &quot;Maven.SpringBoot_BackEnd_Module [install].executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/GithubProjects/MybatisPlus/SpringBoot_BackEnd_Module/MP-learning/src/main/java/com/example/mapper&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15429688&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "java.sql.Driver",
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;java.sql.Driver&quot;,
+      &quot;mysql&quot;
     ],
-    "GitStage.ChangesTree.GroupingKeys": [
-      "directory",
-      "module",
-      "repository"
+    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;,
+      &quot;repository&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\GithubProjects\MybatisPlus\SpringBoot_BackEnd_Module\MP-learning\src\main\java\com\example" />
@@ -220,6 +214,7 @@
       <workItem from="1713947932069" duration="3859000" />
       <workItem from="1713957098097" duration="13000" />
       <workItem from="1713957128990" duration="61000" />
+      <workItem from="1713957256919" duration="575000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -229,7 +224,23 @@
       <option name="project" value="LOCAL" />
       <updated>1713710324614</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit message:Logic Delete&#10;&#10;&quot;调整代码风格，优化代码结构，为后续开发做好准备。&quot;">
+      <option name="closed" value="true" />
+      <created>1713957311047</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713957311047</updated>
+    </task>
+    <task id="LOCAL-00003" summary="优化逻辑删除文档结构，增强阅读清晰度。">
+      <option name="closed" value="true" />
+      <created>1713957386619</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1713957386619</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,6 +249,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Conditional Query" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="commit message:Logic Delete&#10;&#10;&quot;调整代码风格，优化代码结构，为后续开发做好准备。&quot;" />
+    <MESSAGE value="优化逻辑删除文档结构，增强阅读清晰度。" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化逻辑删除文档结构，增强阅读清晰度。" />
   </component>
 </project>

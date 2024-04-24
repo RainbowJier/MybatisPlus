@@ -17,8 +17,8 @@ class MPLearningApplicationTests {
     @Test
     void testInsert() {
         User user = new User();
-        user.setId(5L);
-        user.setUsername("Lucy");
+//        user.setId(5L);
+        user.setUsername("RainbowJier");
         user.setPassword("123");
         user.setPhone("18688990011");
         user.setBalance(200);

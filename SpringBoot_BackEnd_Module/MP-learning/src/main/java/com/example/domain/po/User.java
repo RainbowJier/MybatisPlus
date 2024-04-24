@@ -1,5 +1,7 @@
 package com.example.domain.po;
 
+import com.baomidou.mybatisplus.annotation.IdType;
+import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -11,7 +13,7 @@ import java.util.Date;
 /**
  * 用户表(User)实体类
  *
- * @author makejava
+ * @author RainbowJier
  * @since 2024-04-17 13:07:56
  */
 @Data
@@ -19,6 +21,7 @@ import java.util.Date;
 @NoArgsConstructor
 @TableName("user")
 public class User implements Serializable {
+    @TableId(value="id")
     private Long id;
     /**
      * 用户名

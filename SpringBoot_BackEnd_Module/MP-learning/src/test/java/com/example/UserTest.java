@@ -25,12 +25,10 @@ public class UserTest {
     @Test
     void test() {
         LambdaQueryWrapper<User> queryWrapper = new LambdaQueryWrapper<>();
-
-//        queryWrapper.eq(User::getStatus, 1);
-
         queryWrapper.eq(User::getStatus, UserStatus.NORMAL);
 
         List<User> list = userMapper.selectList(queryWrapper);
+
         list.forEach(System.out::println);
     }
 }

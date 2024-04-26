@@ -6,9 +6,11 @@
 - ✅ Annotation
 - ✅ Configuration
 - ✅ Logic Delete
+- ✅ Enumerate Handler
+- ✅ Json Handler
 
 ## 🎈TodoList
 
-- [ ] Enumerate Handler
-- [ ] Json Handler
+- [ ] 
+- [ ] 
 - [ ] Pagination

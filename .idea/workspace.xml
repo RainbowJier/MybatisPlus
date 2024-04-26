@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c976e72e-00bd-449d-9572-3d57f9ca505f" name="Changes" comment="Enumeration Handler">
-      <change afterPath="$PROJECT_DIR$/3_Extends/3.3JsonHandler.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot_BackEnd_Module/MP-learning/src/main/java/com/example/domain/po/UserInfo.java" afterDir="false" />
+    <list default="true" id="c976e72e-00bd-449d-9572-3d57f9ca505f" name="Changes" comment="Json Handler">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot_BackEnd_Module/MP-learning/src/main/java/com/example/domain/po/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot_BackEnd_Module/MP-learning/src/main/java/com/example/domain/po/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot_BackEnd_Module/MP-learning/src/test/java/com/example/MPLearningApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot_BackEnd_Module/MP-learning/src/test/java/com/example/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot_BackEnd_Module/MP-learning/src/test/java/com/example/UserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -248,7 +244,7 @@
       <workItem from="1714022049144" duration="19000" />
       <workItem from="1714022073215" duration="2175000" />
       <workItem from="1714025203197" duration="9038000" />
-      <workItem from="1714099402612" duration="11218000" />
+      <workItem from="1714099402612" duration="11885000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -290,7 +286,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714130810472</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Json Handler">
+      <option name="closed" value="true" />
+      <created>1714134209625</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1714134209625</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,7 +307,8 @@
     <MESSAGE value="优化逻辑删除文档结构，增强阅读清晰度。" />
     <MESSAGE value="Recent git diff shows changes in workspace.xml, misc.xml, and README.md files. Commit messages include  &quot;Conditional Query&quot;, and &quot;Quick Start&quot;." />
     <MESSAGE value="Enumeration Handler" />
-    <option name="LAST_COMMIT_MESSAGE" value="Enumeration Handler" />
+    <MESSAGE value="Json Handler" />
+    <option name="LAST_COMMIT_MESSAGE" value="Json Handler" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

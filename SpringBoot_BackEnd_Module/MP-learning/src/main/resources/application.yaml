@@ -14,6 +14,8 @@ logging:
 mybatis-plus:
   configuration:
     map-underscore-to-camel-case: true  # map underscore
+    default-enum-type-handler: com.baomidou.mybatisplus.core.handlers.MybatisEnumTypeHandler   # EnumHandler
+
   global-config:
     db-config:
       id-type: auto  # Global id, if variable id don't have @TableId.
@@ -22,3 +24,4 @@ mybatis-plus:
       logic-delete-field: deleted  # Globally Logic deletion
       logic-delete-value: 1      # Deleted value is 1
       logic-not-delete-value: 0   # Not deleted value is 0
+

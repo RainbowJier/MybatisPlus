@@ -1,13 +1,12 @@
 package com.example.domain.po;
 
-import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
+import com.example.enums.UserStatus;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.io.Serializable;
 import java.util.Date;
 
 /**
@@ -20,8 +19,8 @@ import java.util.Date;
 @AllArgsConstructor
 @NoArgsConstructor
 @TableName("user")
-public class User implements Serializable {
-    @TableId(value="id")
+public class User {
+    @TableId(value = "id")
     private Long id;
     /**
      * 用户名
@@ -42,7 +41,7 @@ public class User implements Serializable {
     /**
      * 使用状态（1正常 2冻结）
      */
-    private Integer status;
+    private UserStatus status;
     /**
      * 账户余额
      */

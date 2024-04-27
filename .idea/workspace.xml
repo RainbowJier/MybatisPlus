@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c976e72e-00bd-449d-9572-3d57f9ca505f" name="Changes" comment="Json Handler">
+    <list default="true" id="c976e72e-00bd-449d-9572-3d57f9ca505f" name="Changes" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -62,48 +62,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultPlantUmlFileTemplate": "UML Class",
-    "Downloaded.Files.Path.Enabled": "false",
-    "JUnit.AddressTest.testDelete.executor": "Run",
-    "JUnit.All in SpringBoot_BackEnd_Module.executor": "Run",
-    "JUnit.MPLearningApplicationTests.testInsert.executor": "Run",
-    "JUnit.MPLearningApplicationTests.testSelectById.executor": "Run",
-    "JUnit.UserTest.test.executor": "Run",
-    "Maven.SpringBoot_BackEnd_Module [clean].executor": "Run",
-    "Maven.SpringBoot_BackEnd_Module [install...].executor": "Debug",
-    "Maven.SpringBoot_BackEnd_Module [install].executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/GithubProjects/MybatisPlus/UML",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15429688",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "settings.saveactions",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultPlantUmlFileTemplate&quot;: &quot;UML Class&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.AddressTest.testDelete.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in SpringBoot_BackEnd_Module.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MPLearningApplicationTests.testInsert.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MPLearningApplicationTests.testSelectById.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserTest.test.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.SpringBoot_BackEnd_Module [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.SpringBoot_BackEnd_Module [install...].executor&quot;: &quot;Debug&quot;,
+    &quot;Maven.SpringBoot_BackEnd_Module [install].executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/GithubProjects/MybatisPlus/UML&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15429688&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.saveactions&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "java.sql.Driver",
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;java.sql.Driver&quot;,
+      &quot;mysql&quot;
     ],
-    "GitStage.ChangesTree.GroupingKeys": [
-      "directory",
-      "module",
-      "repository"
+    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;,
+      &quot;repository&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\GithubProjects\MybatisPlus\SpringBoot_BackEnd_Module\MP-learning\src\main\java\com\example" />
@@ -244,7 +244,8 @@
       <workItem from="1714022049144" duration="19000" />
       <workItem from="1714022073215" duration="2175000" />
       <workItem from="1714025203197" duration="9038000" />
-      <workItem from="1714099402612" duration="11885000" />
+      <workItem from="1714099402612" duration="11908000" />
+      <workItem from="1714187825758" duration="4000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -294,7 +295,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714134209625</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="update">
+      <option name="closed" value="true" />
+      <created>1714134245621</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1714134245621</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,13 +311,13 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Conditional Query" />
-    <MESSAGE value="update" />
     <MESSAGE value="commit message:Logic Delete&#10;&#10;&quot;调整代码风格，优化代码结构，为后续开发做好准备。&quot;" />
     <MESSAGE value="优化逻辑删除文档结构，增强阅读清晰度。" />
     <MESSAGE value="Recent git diff shows changes in workspace.xml, misc.xml, and README.md files. Commit messages include  &quot;Conditional Query&quot;, and &quot;Quick Start&quot;." />
     <MESSAGE value="Enumeration Handler" />
     <MESSAGE value="Json Handler" />
-    <option name="LAST_COMMIT_MESSAGE" value="Json Handler" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,0 +1,14 @@
+@startuml
+'https://plantuml.com/use-case-diagram
+
+database "MySql" {
+
+}
+[MySql] -> [String]
+[String] -> [information] : this is a trouble.
+
+
+
+
+
+@enduml

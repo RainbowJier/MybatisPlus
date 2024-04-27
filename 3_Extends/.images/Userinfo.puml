@@ -1,0 +1,19 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+'User -|> UserInfo
+
+class User {
+    - Long id
+    //....
+    - **String info**
+}
+
+'class UserInfo{
+'    - Integer age
+'    - String intro
+'    - String gender
+'}
+
+
+@enduml

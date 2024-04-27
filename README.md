@@ -11,6 +11,4 @@
 
 ## 🎈TodoList
 
-- [ ] 
-- [ ] 
 - [ ] Pagination

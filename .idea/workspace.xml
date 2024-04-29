@@ -4,23 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c976e72e-00bd-449d-9572-3d57f9ca505f" name="Changes" comment="UPDATE">
-      <change afterPath="$PROJECT_DIR$/SpringBoot_BackEnd_Module/MP-learning/src/main/java/com/example/config/MybatisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot_BackEnd_Module/MP-learning/src/main/java/com/example/config/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot_BackEnd_Module/MP-learning/src/main/java/com/example/domain/dto/PageDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot_BackEnd_Module/MP-learning/src/main/java/com/example/domain/po/ResponseResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot_BackEnd_Module/MP-learning/src/main/java/com/example/domain/query/PageQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot_BackEnd_Module/MP-learning/src/main/java/com/example/domain/query/UserQuery.java" afterDir="false" />
+    <list default="true" id="c976e72e-00bd-449d-9572-3d57f9ca505f" name="Changes" comment="pagination">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_Plugins/4.1Pagination.md" beforeDir="false" afterPath="$PROJECT_DIR$/4_Plugins/4.1Pagination.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot_BackEnd_Module/MP-learning/src/main/java/com/example/MPLearningApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot_BackEnd_Module/MP-learning/src/main/java/com/example/MPLearningApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot_BackEnd_Module/MP-learning/src/main/java/com/example/controller/test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot_BackEnd_Module/MP-learning/src/main/java/com/example/domain/po/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot_BackEnd_Module/MP-learning/src/main/java/com/example/domain/po/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot_BackEnd_Module/MP-learning/src/main/java/com/example/domain/vo/UserVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot_BackEnd_Module/MP-learning/src/main/java/com/example/domain/vo/UserVo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot_BackEnd_Module/MP-learning/src/main/java/com/example/mapper/AddressMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot_BackEnd_Module/MP-learning/src/main/java/com/example/mapper/AddressMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot_BackEnd_Module/MP-learning/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot_BackEnd_Module/MP-learning/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot_BackEnd_Module/MP-learning/src/test/java/com/example/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot_BackEnd_Module/MP-learning/src/test/java/com/example/UserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot_BackEnd_Module/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot_BackEnd_Module/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -278,7 +264,7 @@
       <workItem from="1714099402612" duration="11908000" />
       <workItem from="1714187825758" duration="3172000" />
       <workItem from="1714293867790" duration="4653000" />
-      <workItem from="1714371156190" duration="16514000" />
+      <workItem from="1714371156190" duration="16560000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -352,7 +338,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714198767394</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="pagination">
+      <option name="closed" value="true" />
+      <created>1714401502209</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1714401502209</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -368,7 +362,8 @@
     <MESSAGE value="update" />
     <MESSAGE value="images" />
     <MESSAGE value="UPDATE" />
-    <option name="LAST_COMMIT_MESSAGE" value="UPDATE" />
+    <MESSAGE value="pagination" />
+    <option name="LAST_COMMIT_MESSAGE" value="pagination" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -8,7 +8,7 @@
 - ✅ Logic Delete
 - ✅ Enumerate Handler
 - ✅ Json Handler
+- ✅ Pagination
 
 ## 🎈TodoList
 
-- [ ] Pagination

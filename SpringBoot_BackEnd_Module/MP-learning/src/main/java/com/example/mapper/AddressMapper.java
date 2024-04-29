@@ -13,4 +13,5 @@ import com.example.domain.po.Address;
  */
 public interface AddressMapper extends BaseMapper<Address> {
 
+
 }

@@ -12,9 +12,10 @@ import java.util.List;
  * @Author： RainbowJier
  * @Data： 2024/4/26 18:13
  */
+
+@Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Data
 public class UserVo {
     private Long id;
     /**

@@ -1,9 +1,16 @@
 spring:
+  #MYSQL
   datasource:
     url: jdbc:mysql://localhost:3306/mp
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
     password: root
+
+  #Swagger
+  # After Springboot 2.6 version, you need to configure ant_path_matcher to make swagger work properly(适当地).
+  mvc:
+    path match:
+      matching-strategy: ant_path_matcher
 
 logging:
   level:
@@ -11,11 +18,12 @@ logging:
   pattern:
     dateformat: HH:mm:ss
 
+
+#MybatisPlus
 mybatis-plus:
   configuration:
     map-underscore-to-camel-case: true  # map underscore
     default-enum-type-handler: com.baomidou.mybatisplus.core.handlers.MybatisEnumTypeHandler   # EnumHandler
-
   global-config:
     db-config:
       id-type: auto  # Global id, if variable id don't have @TableId.
@@ -25,3 +33,8 @@ mybatis-plus:
       logic-delete-value: 1      # Deleted value is 1
       logic-not-delete-value: 0   # Not deleted value is 0
 
+# knife4j
+knife4j:
+  enable: true
+  setting:
+    language: zh_cn

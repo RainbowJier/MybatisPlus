@@ -4,10 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c976e72e-00bd-449d-9572-3d57f9ca505f" name="Changes" comment="images">
-      <change afterPath="$PROJECT_DIR$/4_Plugins/4.1Pagination.md" afterDir="false" />
+    <list default="true" id="c976e72e-00bd-449d-9572-3d57f9ca505f" name="Changes" comment="UPDATE">
+      <change afterPath="$PROJECT_DIR$/SpringBoot_BackEnd_Module/MP-learning/src/main/java/com/example/config/MybatisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_BackEnd_Module/MP-learning/src/main/java/com/example/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_BackEnd_Module/MP-learning/src/main/java/com/example/domain/dto/PageDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_BackEnd_Module/MP-learning/src/main/java/com/example/domain/po/ResponseResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_BackEnd_Module/MP-learning/src/main/java/com/example/domain/query/PageQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_BackEnd_Module/MP-learning/src/main/java/com/example/domain/query/UserQuery.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_Extends/3.2Enumeration.md" beforeDir="false" afterPath="$PROJECT_DIR$/3_Extends/3.2Enumeration.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_Plugins/4.1Pagination.md" beforeDir="false" afterPath="$PROJECT_DIR$/4_Plugins/4.1Pagination.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot_BackEnd_Module/MP-learning/src/main/java/com/example/MPLearningApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot_BackEnd_Module/MP-learning/src/main/java/com/example/MPLearningApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot_BackEnd_Module/MP-learning/src/main/java/com/example/controller/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot_BackEnd_Module/MP-learning/src/main/java/com/example/domain/po/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot_BackEnd_Module/MP-learning/src/main/java/com/example/domain/po/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot_BackEnd_Module/MP-learning/src/main/java/com/example/domain/vo/UserVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot_BackEnd_Module/MP-learning/src/main/java/com/example/domain/vo/UserVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot_BackEnd_Module/MP-learning/src/main/java/com/example/mapper/AddressMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot_BackEnd_Module/MP-learning/src/main/java/com/example/mapper/AddressMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot_BackEnd_Module/MP-learning/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot_BackEnd_Module/MP-learning/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot_BackEnd_Module/MP-learning/src/test/java/com/example/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot_BackEnd_Module/MP-learning/src/test/java/com/example/UserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot_BackEnd_Module/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot_BackEnd_Module/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,12 +31,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="package-info" />
-        <option value="Class" />
-        <option value="UML Sequence" />
         <option value="UML Component" />
         <option value="UML Use Case" />
         <option value="UML Class" />
+        <option value="UML MindMap" />
+        <option value="UML Sequence" />
+        <option value="UML Activity" />
+        <option value="package-info" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -53,7 +68,7 @@
     </option>
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -65,12 +80,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "DefaultPlantUmlFileTemplate": "UML Class",
+    "DefaultPlantUmlFileTemplate": "UML Activity",
     "Downloaded.Files.Path.Enabled": "false",
     "JUnit.AddressTest.testDelete.executor": "Run",
     "JUnit.All in SpringBoot_BackEnd_Module.executor": "Run",
     "JUnit.MPLearningApplicationTests.testInsert.executor": "Run",
     "JUnit.MPLearningApplicationTests.testSelectById.executor": "Run",
+    "JUnit.UserTest.Pagination.executor": "Run",
     "JUnit.UserTest.test.executor": "Run",
     "Maven.SpringBoot_BackEnd_Module [clean].executor": "Run",
     "Maven.SpringBoot_BackEnd_Module [install...].executor": "Debug",
@@ -78,7 +94,12 @@
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.MPLearningApplication.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/GithubProjects/MybatisPlus/4_Plugins/.images",
@@ -107,6 +128,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GithubProjects\MybatisPlus\4_Plugins\.images" />
       <recent name="D:\GithubProjects\MybatisPlus\SpringBoot_BackEnd_Module\MP-learning\src\main\java\com\example" />
       <recent name="D:\GithubProjects\MybatisPlus\SpringBoot_BackEnd_Module\MP-learning\src\main\java\com\example\mapper" />
     </key>
@@ -115,21 +137,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserTest.test">
+  <component name="RunManager" selected="Spring Boot.MPLearningApplication">
     <configuration name="AddressTest.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MP-learning" />
       <option name="PACKAGE_NAME" value="com.example" />
       <option name="MAIN_CLASS_NAME" value="com.example.AddressTest" />
       <option name="METHOD_NAME" value="testDelete" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in SpringBoot_BackEnd_Module" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SpringBoot_BackEnd_Module" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -161,6 +175,22 @@
       <option name="PACKAGE_NAME" value="com.example" />
       <option name="MAIN_CLASS_NAME" value="com.example.MPLearningApplicationTests" />
       <option name="METHOD_NAME" value="testSelectById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserTest.Pagination" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MP-learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example" />
+      <option name="MAIN_CLASS_NAME" value="com.example.UserTest" />
+      <option name="METHOD_NAME" value="Pagination" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -203,11 +233,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserTest.Pagination" />
         <item itemvalue="JUnit.UserTest.test" />
         <item itemvalue="JUnit.AddressTest.testDelete" />
         <item itemvalue="JUnit.MPLearningApplicationTests.testInsert" />
         <item itemvalue="JUnit.MPLearningApplicationTests.testSelectById" />
-        <item itemvalue="JUnit.All in SpringBoot_BackEnd_Module" />
       </list>
     </recent_temporary>
   </component>
@@ -246,7 +276,9 @@
       <workItem from="1714022073215" duration="2175000" />
       <workItem from="1714025203197" duration="9038000" />
       <workItem from="1714099402612" duration="11908000" />
-      <workItem from="1714187825758" duration="2492000" />
+      <workItem from="1714187825758" duration="3172000" />
+      <workItem from="1714293867790" duration="4653000" />
+      <workItem from="1714371156190" duration="16514000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -312,7 +344,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714187907309</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="UPDATE">
+      <option name="closed" value="true" />
+      <created>1714198767394</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1714198767394</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,7 +367,8 @@
     <MESSAGE value="Json Handler" />
     <MESSAGE value="update" />
     <MESSAGE value="images" />
-    <option name="LAST_COMMIT_MESSAGE" value="images" />
+    <MESSAGE value="UPDATE" />
+    <option name="LAST_COMMIT_MESSAGE" value="UPDATE" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

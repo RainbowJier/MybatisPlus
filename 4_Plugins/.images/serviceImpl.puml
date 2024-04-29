@@ -1,0 +1,84 @@
+@startuml
+
+cloud Browser{
+}
+
+'class
+class UserController {
++ ResponseResult userQuery(UserQuery)
+
+}
+
+interface UserService {
+~ ResponseResult userQuery(UserQuery)
+}
+
+class UserServiceImpl {
++ ResponseResult userQuery(UserQuery)
+}
+
+interface UserMapper {
+
+}
+
+interface BaseMapper{
+}
+
+
+database MYSQL{
+}
+
+'entity
+
+class PageQuery {
+- Integer pageNo
+- Integer pageSize
+- String sortBy
+- Boolean isAsc
+}
+
+class UserQuery {
+- String name
+- Integer status
+- Integer minBalance
+- Integer maxBalance
+}
+
+class UserVo {
+- Long id
+- String username
+- String phone
+- String info
+- UserStatus status
+- List<AddressVo> address
+}
+
+class PageDTO {
+- Long total
+- Long pages
+- **List<T> list**
+}
+
+class ResponseResult {
+- Integer code
+- String msg
+- T data
+}
+
+PageQuery <|-- UserQuery
+
+UserService <|.. UserServiceImpl : **implements**
+BaseMapper <|-- UserMapper  : **extends**
+
+Browser ->  UserController
+UserController -> UserServiceImpl : **UserQuery**
+UserServiceImpl -> UserMapper
+UserMapper -> MYSQL :  **UserQuery**
+
+MYSQL --> UserVo : **records**
+
+PageDTO  <- UserVo
+ResponseResult <- PageDTO
+Browser <-- ResponseResult
+
+@enduml
